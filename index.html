@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crown of Shadows</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Crown of Shadows</a>
+
+            <div class="nav-links">
+                <a href="project.html">Project</a>
+                <a href="devlog.html">Dev Logs</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+<header class="hero">
+    <div class="hero-content">
+        <h1>Crown of Shadows</h1>
+        <p class="tagline">
+            A dark fantasy action RPG built in Unreal Engine.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="project.html" class="btn primary">View Project</a>
+            <a href="devlog.html" class="btn secondary">Dev Logs</a>
+            <a href="contact.html" class="btn secondary">Contact Me</a>
+            <a href="#" class="btn secondary" id="trailer-btn">Watch Trailer</a>
+        </div>
+    </div>
+</header>
+
+    <main>
+        <section>
+            <h2>About the Project</h2>
+            <p>
+                Crown of Shadows is a solo-developed open-world action RPG set in a semi-historical feudal era 
+                where political fracture, hidden conspiracies and supernatural mystic forces collide. 
+                Players step into the role of a highly skilled ninja who moves through bustling villages, 
+                dense forests, mountain temples and shadow-soaked valleys to uncover a conspiracy 
+                that threatens to plunge the kingdom into darkness.
+            </p>
+        </section>
+
+        <section>
+            <h2>Current Development Focus</h2>
+            <ul>
+                <li>Combat abilities and animation systems</li>
+                <li>Camera and movement polish</li>
+                <li>Enemy behavior and encounters</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Previews</h2>
+                <video
+                    class="gameplay-video"
+                    src="assets/videos/Test_Video.mp4"
+                    autoplay
+                    muted
+                    loop
+                    playsinline
+                >
+                Your browser does not support the video tag.
+                </video>
+
+            <div class="gallery"> 
+                <img src="assets/images/Houses.png" alt="Gameplay Screenshot", class="gallery-img" />
+                <img src="assets/images/Lake.png" alt="Gameplay Screenshot", class="gallery-img" />
+                <img src="assets/images/Environment_Progress.png" alt="Gameplay Screenshot", class="gallery-img" />
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Julian Wong</p>
+    </footer>
+
+    <div id="lightbox" class="lightbox hidden">
+        <img id="lightbox-img" src="" alt="Expanded view" />
+    </div>
+
+    <div id="trailer-modal" class="lightbox hidden">
+        <div class="trailer-container">
+            <iframe
+                src=""
+                frameborder="0"
+                allow="autoplay; fullscreen"
+                allowfullscreen
+            ></iframe>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
